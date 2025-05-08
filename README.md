@@ -44,7 +44,7 @@ Dataset 5: KD
 
 python train.py --epochs=XX --lr=XX --wd=XX --bs=XX --os=4 --ss=256 --ms=512 \
 --label_smooth=XX --gamma=XX --loss='CEWithSmooth' --file='XX' --model='model_name' \
---seed=XX --dataset='KidneyDisease' --K=1 --balance=0 --stop_flag='F1_train'
+--seed=XX --dataset='KidneyDisease' --K=1 --balance=0 --stop_flag='F_train'
 
 Dataset 6: SIMS
 
